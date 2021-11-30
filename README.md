@@ -43,7 +43,7 @@ https://vega.github.io/vega-lite/docs/data.html#inline
 
 ### Installation and run
 <p>
-First Clone the project from the github repository. Then open the command prompt (cmd) window and navigate to the project folder. Use the <b> npm install </b> command to create the <b> node_module </b>folder which contains all packages used in the project. <br/>
+You need to install Node js and then clone the project from the github repository. Open the command prompt (cmd) window and navigate to the project folder. Use the <b> npm install </b> command to create the <b> node_module </b>folder which contains all packages used in the project. <br/>
 Then run the program using the <b> npm start </b> command. To restart the program use the <b>rs</b> command.</br>
 To view a plot open the .vl.json file and click the vega icon on the top right corner of the tab.
 </p>
