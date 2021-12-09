@@ -9,7 +9,11 @@
   },
   "nodemonConfig": {
     "verbose": true,
-    "ignore": ["src/charts/*.vl.json", "*.vl.json", "logs"]
+    "ignore": [
+      "src/charts/*.vl.json",
+      "*.vl.json",
+      "logs"
+    ]
   },
   "author": "Masoumeh Khorani",
   "license": "ISC",
@@ -17,7 +21,8 @@
     "axios": "^0.24.0",
     "csv-parser": "^3.0.0",
     "fs": "0.0.1-security",
-    "jstat": "^1.9.5"
+    "jstat": "^1.9.5",
+    "mann-whitney-utest": "^1.0.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",

@@ -1,2 +1,10 @@
-**** P-Value for "score" ****
->>P-Value of score : 0.19109586632680575
+**** t-test and Mann-whitney U test results ****
+
+t-test for Score >>> P-Value : 0.19109586632680575
+There is no significant difference between the two samples
+
+Mann-Whitney U test for Score >>> U1 = 1330936.5 and U2 = 1201919.5
+There is no significant difference between the two samples
+
+Mann-Whitney U test for Accept rate >>> U1 = 1157981 and U2 = 1374875
+There is no significant difference between the two samples

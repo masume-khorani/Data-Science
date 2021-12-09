@@ -8,7 +8,7 @@
 import api from "./csvFiles/api";
 /* chart includes functions for drawing charts */
 import chart from "./charts/chart";
-/* test includes a function for calculating P-value for t-test */
+/* test includes a function for calculating P-value for t-test and U for Mann-Whitney test */
 import test from "./tests/test";
 
 export default {
@@ -20,7 +20,7 @@ export default {
         // api.createCSV(); 
         /* This function draws charts for all 5 metrics */
         chart.createChart();
-        /* This function calculates p-value for all 5 metrics */
-        test.runTtest();
+        /* This function conducts t-test and Mann-Whitney U test for "score" metric */
+        test.runStatisticalTests();
     }
 }
